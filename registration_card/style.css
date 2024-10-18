@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ---  Font-Family Use -- Roboto  ---  */
+
+body {  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 919px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(140deg,#6977DF 25%, #7356B1 75%); 
+}
+
+.card-main {
+    width: 900px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.text-reg {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+
+}
+
+.input-section {
+    display: flex;
+    margin-top: 45px;
+}
+
+.input-section-one {
+    width: 100%;
+    height: auto;
+    background-color: none;
+}
+
+.input-section-two {
+    width: 100%;
+    height: auto;
+    background-color: none;
+}
+
+/* -- Full Name -- */
+
+.label-name {
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 20px;
+
+}
+
+.inpt-name {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+/* -- Email -- */
+
+.label-email {
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 20px;
+
+}
+
+.inpt-email {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 54px;
+    margin-top: 30px;
+}
+
+/* -- Password -- */
+
+.label-password {
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 20px;
+
+}
+
+.inpt-password {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+/* -- Gender -- */
+
+.label-gender {
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.inpt-male {
+    margin-top: 35px;
+    margin-left: 25px;
+
+}
+
+.inpt-female {
+    margin-left: 3px;
+}
+
+.inpt-other {
+    margin-left: 3px;
+}
+
+/* -- Two Buttons -- */
+
+.cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5E57;
+    margin-left: 60px;
+    margin-top: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(140deg,#6977DF 25%, #7356B1 75%);
+    margin-left: 15px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+/* -- Username -- */
+
+.label-username {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.inpt-username {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 85px;
+}
+
+/* -- Phone Number -- */
+
+.label-number {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.inpt-number {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 38px;
+    margin-top: 30px;
+}
+
+/* -- Confirm Password -- */
+
+.label-confirm-password {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.inpt-confirm-password {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
